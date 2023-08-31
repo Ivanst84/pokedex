@@ -1,0 +1,26 @@
+.custom-card {
+    background-color: #e9dcdc; /* Color de fondo negro azulado */
+    color: #ffffff; /* Color de texto blanco o claro para contrastar */
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .elevated-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .elevated-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .card-image {
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+    height: auto; /* Mantener la proporción original */
+  }
+  
